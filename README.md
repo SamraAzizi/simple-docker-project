@@ -7,3 +7,28 @@ A minimal Flask web application containerized with Docker.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 ## 📦 Project Structure
+```bash
+dockerflask/
+├── app.py # Flask application
+├── Dockerfile # Docker configuration
+├── docker-compose.yml # Container orchestration
+└── README.md # This file
+```
+
+
+## 🚀 Quick Start
+
+1. **Open in VS Code**
+   ```bash
+   code .
+   ```
+
+2. Build and run with Docker Compose
+```bash
+docker-compose up --build
+```
+3. Access the application
+```bash
+http://localhost:5000
+```
+
